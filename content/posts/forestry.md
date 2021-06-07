@@ -19,4 +19,4 @@ This is a youtube video
 
 This is a tweet
 
-`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">my parents didn’t listen to me as a child so now i overshare on twitter</p>&mdash; nat! (@pixyIuvr) <a href="`[`https://twitter.com/pixyIuvr/status/1400206792802521091?ref_src=twsrc%5Etfw`](https://twitter.com/pixyIuvr/status/1400206792802521091?ref_src=twsrc%5Etfw "https://twitter.com/pixyIuvr/status/1400206792802521091?ref_src=twsrc%5Etfw")`">June 2, 2021</a></blockquote>`
+{{< tweet 1400206792802521091 >}}
