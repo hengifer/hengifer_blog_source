@@ -29,16 +29,6 @@ sections:
   label: About
   create: all
   match: "**/*"
-- type: directory
-  path: content/css
-  label: Css
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/js
-  label: Js
-  create: all
-  match: "**/*"
 upload_dir: content
 public_path: "/content"
 front_matter_path: ''
