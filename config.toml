@@ -2,6 +2,16 @@ baseURL = "https://hengifer.github.io"
 languageCode = "en-us"
 title = "Hengifer's Blog"
 theme = "dream"
+
+googleAnalytics = "G-G7QQHB44FV"
+
+disqusShortname = "hengiferr"
+
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   background = "#fff"
   backgroundImage = "/me/background.jpg"
@@ -15,7 +25,7 @@ theme = "dream"
   # darkNav = true
   # dark404 = true
 
-  images = [""]
+  images = ["/me/background.jpg"]
 
   author = "Honey Yadav"
   description = "Hi, this is my blog."
@@ -74,7 +84,3 @@ theme = "dream"
   [params.experimental]
     jsDate = true
     jsDateFormat = "DD"
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-googleAnalytics = "G-G7QQHB44FV"
-disqusShortname = "hengifer"
