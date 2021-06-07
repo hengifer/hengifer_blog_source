@@ -26,7 +26,7 @@ theme = "dream"
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
-  # footerBottomText = ""
+  footerBottomText = "I love space"
 
   rss = true
 
