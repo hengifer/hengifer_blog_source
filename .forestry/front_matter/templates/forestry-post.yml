@@ -1,0 +1,25 @@
+---
+label: Forestry post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: text
+  name: author
+  label: author
+- type: file
+  name: cover
+  label: cover
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
