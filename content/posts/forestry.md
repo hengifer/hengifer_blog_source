@@ -1,7 +1,7 @@
 +++
 author = "Honey Yadav"
 categories = []
-cover = "/content/img/robin-gaillot-drevon-cekkoopo0bq-unsplash.jpg"
+cover = ""
 date = 2021-06-05T18:30:00Z
 lastmod = ""
 tags = []
