@@ -19,7 +19,7 @@ enableRobotsTXT = true
 
   # dark mode
   # defaultDark = true
-  backgroundDark = "black"
+  backgroundDark = "#333"
   backgroundImageDark = "/me/background.jpg"
   darkLinkColor = "darkseagreen"
   # darkNav = true
