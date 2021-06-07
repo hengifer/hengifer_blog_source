@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - master # Set a branch to deploy
+      - main # Set a branch to deploy
   pull_request:
 
 jobs:
@@ -26,12 +26,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: hengifer/hengifer.github.io
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          #   keep_files: true
-          user_name: hengifer
-          user_email: hy452002@gmail.com
-          publish_branch: master
-        #   cname: example.com
