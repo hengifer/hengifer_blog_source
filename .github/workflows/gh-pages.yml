@@ -29,7 +29,7 @@ jobs:
         with:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: hengifer/hengifer.github.io
-          publish_dir: public
+          publish_dir: ./public
           #   keep_files: true
           user_name: hengifer
           user_email: hy452002@gmail.com
