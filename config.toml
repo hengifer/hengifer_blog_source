@@ -1,0 +1,79 @@
+baseURL = "https://hengifer.github.io"
+languageCode = "en-us"
+title = "Hengifer's Blog"
+theme = "dream"
+[params]
+  background = "#fff"
+  backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  # dark mode
+  # defaultDark = true
+  backgroundDark = "black"
+  backgroundImageDark = "/me/background.jpg"
+  darkLinkColor = "darkseagreen"
+  # darkNav = true
+  # dark404 = true
+
+  images = [""]
+
+  author = "Honey Yadav"
+  description = "Hi, this is my blog."
+  avatar = "/me/profile.png"
+  headerTitle = "Honey Yadav"
+  motto = "Let's jam!"
+  # maxTags = 5
+  # categoriesLimitInHeader = 6 # deprecated
+  # headerBottomText = "" # deprecated
+
+  # footerBottomText = ""
+
+  rss = true
+
+  # utterancesRepo = "hengifer/hengifer.github.io"
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+
+  email = "hy452002@gmail.com"
+  twitter = "hengifer"
+  # facebook = "g1eny0ung"
+  instagram = "hengifer_"
+  # mastodon = ""
+  linkedin = "honey-yadav"
+  github = "hengifer"
+  # stackoverflow = "5676489/g1eny0ung"
+  # codepen = "g1eny0ung"
+
+  siteStartYear = 2021
+
+  favicon = "/favicon.png"
+
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+  hasTwitterEmbed = true
+  # reversePostAndAside = true
+  # shareInAside = true
+  fixedNav = true
+
+  [params.advanced]
+    customCSS = ["css/custom.css"]
+    customJSBefore = ["js/custom-before.js"]
+    # customJS = []
+
+  [params.experimental]
+    jsDate = true
+    jsDateFormat = "DD"
+
+googleAnalytics = "G-G7QQHB44FV"
+disqusShortname = "hengifer"
