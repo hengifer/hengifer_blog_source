@@ -22,11 +22,11 @@ theme = "dream"
   avatar = "/me/profile.png"
   headerTitle = "Honey Yadav"
   motto = "Let's jam!"
-  # maxTags = 5
+  maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
-  # footerBottomText = ""
+  footerBottomText = "Saline Water"
 
   rss = true
 
@@ -59,13 +59,6 @@ theme = "dream"
   # search
   enableSearch = true
 
-  # options
-  showSummaryCoverInPost = true
-  hasTwitterEmbed = true
-  # reversePostAndAside = true
-  # shareInAside = true
-  fixedNav = true
-
   [params.advanced]
     customCSS = ["css/custom.css"]
     customJSBefore = ["js/custom-before.js"]
@@ -74,6 +67,15 @@ theme = "dream"
   [params.experimental]
     jsDate = true
     jsDateFormat = "DD"
+    
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  # options
+  showSummaryCoverInPost = true
+  hasTwitterEmbed = true
+  # reversePostAndAside = true
+  # shareInAside = true
+  fixedNav = true
 
 googleAnalytics = "G-G7QQHB44FV"
 disqusShortname = "hengifer"
