@@ -1,5 +1,6 @@
 +++
 author = "Honey Yadav"
+avatar = "/img/img_20210405_100957_458_auto_x2.jpg"
 categories = []
 cover = "/img/fabrizio-conti-fsri38auqry-unsplash.jpg"
 date = 2021-06-05T18:30:00Z
