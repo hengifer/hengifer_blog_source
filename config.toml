@@ -22,11 +22,11 @@ theme = "dream"
   avatar = "/me/profile.png"
   headerTitle = "Honey Yadav"
   motto = "Let's jam!"
-  maxTags = 5
+  # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
-  # footerBottomText = "Saline Water"
+  # footerBottomText = ""
 
   rss = true
 
@@ -74,9 +74,6 @@ theme = "dream"
   [params.experimental]
     jsDate = true
     jsDateFormat = "DD"
-  
-  [outputs]
-    home = ["HTML", "RSS", "JSON"]
 
 googleAnalytics = "G-G7QQHB44FV"
 disqusShortname = "hengifer"
