@@ -22,7 +22,7 @@ theme = "dream"
   avatar = "/me/profile.png"
   headerTitle = "Honey Yadav"
   motto = "Let's jam!"
-  # maxTags = 5
+  maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
