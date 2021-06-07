@@ -74,6 +74,7 @@ theme = "dream"
   [params.experimental]
     jsDate = true
     jsDateFormat = "DD"
-
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 googleAnalytics = "G-G7QQHB44FV"
 disqusShortname = "hengifer"
