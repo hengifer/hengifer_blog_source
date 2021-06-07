@@ -26,7 +26,7 @@ theme = "dream"
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
-  footerBottomText = "Saline Water"
+  # footerBottomText = "Saline Water"
 
   rss = true
 
@@ -75,7 +75,8 @@ theme = "dream"
     jsDate = true
     jsDateFormat = "DD"
     
-
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 googleAnalytics = "G-G7QQHB44FV"
 disqusShortname = "hengifer"
