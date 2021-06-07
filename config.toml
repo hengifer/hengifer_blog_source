@@ -59,6 +59,13 @@ theme = "dream"
   # search
   enableSearch = true
 
+  # options
+  showSummaryCoverInPost = true
+  hasTwitterEmbed = true
+  # reversePostAndAside = true
+  # shareInAside = true
+  fixedNav = true
+
   [params.advanced]
     customCSS = ["css/custom.css"]
     customJSBefore = ["js/custom-before.js"]
@@ -70,12 +77,7 @@ theme = "dream"
     
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  # options
-  showSummaryCoverInPost = true
-  hasTwitterEmbed = true
-  # reversePostAndAside = true
-  # shareInAside = true
-  fixedNav = true
+
 
 googleAnalytics = "G-G7QQHB44FV"
 disqusShortname = "hengifer"
