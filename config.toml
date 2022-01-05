@@ -1,7 +1,7 @@
 baseURL = "https://hengifer.github.io"
 languageCode = "en-us"
 title = "Hengifer's Blog"
-theme = "dream"
+theme = "PaperMod"
 
 googleAnalytics = "G-G7QQHB44FV"
 
